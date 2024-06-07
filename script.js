@@ -8,11 +8,11 @@ buttons.forEach((value, index, array) => {
         const imageMinusPrev = document.getElementById(`image-${active}-minus`);
         const textCurr = document.getElementById(`text-${index + 1}`);
         const textPrev = document.getElementById(`text-${active}`);
-        if(active != 0 && active != index + 1){
+        /*if(active != 0 && active != index + 1){
             imageMinusPrev.style.display = "none";
             imagePlusPrev.style.display = "block";
-            textPrev.style.display = "none";
-        }
+            textPrev.classList.toggle("p-active");
+        }*/
         if(imagePlusCurr.style.display == "block"){
             imagePlusCurr.style.display = "none";
             imageMinusCurr.style.display = "block";
@@ -20,11 +20,7 @@ buttons.forEach((value, index, array) => {
             imagePlusCurr.style.display = "block";
             imageMinusCurr.style.display = "none";
         }   
-        if(textCurr.style.display == "none"){
-            textCurr.style.display = "block";
-        } else{
-            textCurr.style.display = "none";
-        }
+        textCurr.classList.toggle("p-active");
         active = index + 1;
     })
     value.addEventListener("mouseover", (event) => {
