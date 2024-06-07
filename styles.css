@@ -45,7 +45,7 @@ h1{
     background-color: white;
     border-radius: 12px;
     padding: 28px;
-    padding-bottom: 12px;
+    padding-bottom: 8px;
     width: 450px;
     margin-top: 24px;
 }
@@ -105,6 +105,10 @@ button:focus-visible {
 
 .item:last-child p{
     margin-bottom: 0;
+}
+
+.item:last-child p[class="p-active"]{
+    margin-bottom: 12px;
 }
 
 .divider{
