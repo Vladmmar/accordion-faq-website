@@ -45,7 +45,7 @@ h1{
     background-color: white;
     border-radius: 12px;
     padding: 28px;
-    padding-bottom: 25px;
+    padding-bottom: 12px;
     width: 450px;
     margin-top: 24px;
 }
@@ -99,7 +99,6 @@ button:focus-visible {
 }
 
 .item .p-active{
-    
     margin-bottom: 12px;
     display: block;
 }
