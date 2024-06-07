@@ -108,7 +108,7 @@ button{
         background-image: url("assets/images/background-pattern-mobile.svg");
     }
     .container{
-        width: 95vw;
+        width: 60vw;
         border-radius: 8px;
     }
     h1{
