@@ -103,12 +103,12 @@ button{
     margin: 12px 0;
 }
 
-@media (max-width: 550px){
+@media (max-width: 650px){
     body{
         background-image: url("assets/images/background-pattern-mobile.svg");
     }
     .container{
-        width: 70vw;
+        width: 80vw;
         border-radius: 8px;
     }
     h1{
