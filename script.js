@@ -23,7 +23,13 @@ buttons.forEach((value, index, array) => {
             imageMinusCurr.style.display = "none";
         }   
         //showing the answer
-        textCurr.classList.toggle("p-active");
+        if (textCurr.classList.contains("p-active")){
+            textCurr.style.maxHeight = null;
+            textCurr.classList.remove("p-active");
+        } else{
+            textCurr.classList.add("p-active");
+            textCurr.style.maxHeight = textCurr.scrollHeight + 'px';
+        }
         active = index + 1;
     })
     //Adding hover effect
