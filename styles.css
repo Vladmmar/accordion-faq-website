@@ -25,7 +25,7 @@ main{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 99vh;
+    height: 100vh;
 }
 
 #faq-star{
@@ -42,12 +42,12 @@ h1{
 }
 
 .container{
+    margin-top: 24px;
     background-color: white;
     border-radius: 12px;
     padding: 28px;
-    padding-bottom: 8px;
+    padding-bottom: 25px;
     width: 450px;
-    margin-top: 24px;
 }
 
 .item{
@@ -108,7 +108,11 @@ button:focus-visible {
 }
 
 .item:last-child p[class="p-active"]{
-    margin-bottom: 12px;
+    margin-bottom: 0;
+}
+
+.item:last-child button{
+    margin-bottom: 0;
 }
 
 .divider{
